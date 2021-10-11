@@ -10,8 +10,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ios": "ionic cap run ios -l --port 4200 --external --consolelogs --watch --disableHostCheck",
-    "dev:android": "ionic cap run android -l --port 4200 --external --consolelogs --watch --disableHostCheck"
+    "dev:ios": "ionic cap sync:ios && ionic cap run ios -l --port 4200 --external --consolelogs --watch --disableHostCheck",
+    "dev:android": "ionic cap sync:android && ionic cap run android -l --port 4200 --external --consolelogs --watch --disableHostCheck"
   },
   "private": true,
   "dependencies": {

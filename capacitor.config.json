@@ -1,6 +1,1 @@
-{
-  "server": {
-    "url": "http://192.168.1.201:4200",
-    "cleartext": true
-  }
-}
+{}
