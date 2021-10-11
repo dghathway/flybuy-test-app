@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FlyBuy",
+        "repositoryURL": "https://github.com/RadiusNetworks/flybuy-ios",
+        "state": {
+          "branch": "main",
+          "revision": "0b16b79b41154babef0853d428a1de259e1ad107",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
