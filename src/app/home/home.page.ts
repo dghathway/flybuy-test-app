@@ -12,11 +12,11 @@ export class HomePage {
 
   public async callPlugin() {
     const { status, messageAs } = await CapFlyBuy.createCustomer({
-      name: 'test_newks',
+      name: 'flybuy_capacitor_test',
       carColor: 'white',
-      carType: 'bwm',
-      licensePlate: '',
-      phone: '5555555555'
+      carType: 'toyota',
+      licensePlate: 'A1234567',
+      phone: '5551112222'
     });
     console.log('=> createCustomer: ', status, messageAs);
     const orderResult = await CapFlyBuy.createOrder({
